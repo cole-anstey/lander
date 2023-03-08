@@ -379,8 +379,8 @@ void UpdateCounters()
 
   nCounterTick = sTime.millitm < 500;
 
-  if (_bmpScreen > 0)
-    nCounterDec--;
+  //if (_bmpScreen > 0)
+  //  nCounterDec--;
 }
 
 UINT Milliseconds()
